@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13A5F71D1BBFF39900629211 /* Bloco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5F71C1BBFF39900629211 /* Bloco.swift */; };
+		13A5F71F1BBFFC6D00629211 /* boxExplosive.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A5F71E1BBFFC6D00629211 /* boxExplosive.png */; };
+		13A5F7211BBFFC9500629211 /* boxExplosiveAlt.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A5F7201BBFFC9500629211 /* boxExplosiveAlt.png */; };
+		13A5F7231BBFFCA100629211 /* boxEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A5F7221BBFFCA100629211 /* boxEmpty.png */; };
+		13A5F7251BC00DF200629211 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5F7241BC00DF200629211 /* GameOver.swift */; };
+		13A5F7271BC0119000629211 /* GameWin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5F7261BC0119000629211 /* GameWin.swift */; };
+		13A5F7291BC0145800629211 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5F7281BC0145800629211 /* About.swift */; };
+		13CA00651BB6FE9200C0E5A1 /* BarraJogador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CA00641BB6FE9200C0E5A1 /* BarraJogador.swift */; };
+		13CA00671BB7093C00C0E5A1 /* Bola.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CA00661BB7093C00C0E5A1 /* Bola.swift */; };
+		13CA00691BB70BF800C0E5A1 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 13CA00681BB70BF800C0E5A1 /* ball.png */; };
+		13CA006B1BB7172700C0E5A1 /* bridge.png in Resources */ = {isa = PBXBuildFile; fileRef = 13CA006A1BB7172700C0E5A1 /* bridge.png */; };
+		13CA006D1BB71B9D00C0E5A1 /* CGVectorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CA006C1BB71B9D00C0E5A1 /* CGVectorExtensions.swift */; };
+		13D14EA11BA452F400CE9CEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D14EA01BA452F400CE9CEC /* AppDelegate.swift */; };
+		13D14EA31BA452F400CE9CEC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 13D14EA21BA452F400CE9CEC /* GameScene.sks */; };
+		13D14EA51BA452F400CE9CEC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D14EA41BA452F400CE9CEC /* GameScene.swift */; };
+		13D14EA71BA452F400CE9CEC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D14EA61BA452F400CE9CEC /* GameViewController.swift */; };
+		13D14EAA1BA452F400CE9CEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D14EA81BA452F400CE9CEC /* Main.storyboard */; };
+		13D14EAC1BA452F400CE9CEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D14EAB1BA452F400CE9CEC /* Images.xcassets */; };
+		13D14EAF1BA452F400CE9CEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13D14EAD1BA452F400CE9CEC /* LaunchScreen.xib */; };
+		13D14EBB1BA452F400CE9CEC /* ArcanoidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D14EBA1BA452F400CE9CEC /* ArcanoidTests.swift */; };
+		13D14EC71BA4536300CE9CEC /* brickWall.png in Resources */ = {isa = PBXBuildFile; fileRef = 13D14EC61BA4536300CE9CEC /* brickWall.png */; };
+		13D14ECE1BA45A4300CE9CEC /* kenpixel_mini.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D14ECD1BA45A4300CE9CEC /* kenpixel_mini.ttf */; };
+		13D14ED01BA45D0300CE9CEC /* Jogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D14ECF1BA45D0300CE9CEC /* Jogo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13D14EB51BA452F400CE9CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13D14E931BA452F400CE9CEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13D14E9A1BA452F400CE9CEC;
+			remoteInfo = Arcanoid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13A5F71C1BBFF39900629211 /* Bloco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bloco.swift; sourceTree = "<group>"; };
+		13A5F71E1BBFFC6D00629211 /* boxExplosive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boxExplosive.png; sourceTree = "<group>"; };
+		13A5F7201BBFFC9500629211 /* boxExplosiveAlt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boxExplosiveAlt.png; sourceTree = "<group>"; };
+		13A5F7221BBFFCA100629211 /* boxEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boxEmpty.png; sourceTree = "<group>"; };
+		13A5F7241BC00DF200629211 /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		13A5F7261BC0119000629211 /* GameWin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameWin.swift; sourceTree = "<group>"; };
+		13A5F7281BC0145800629211 /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		13CA00641BB6FE9200C0E5A1 /* BarraJogador.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarraJogador.swift; sourceTree = "<group>"; };
+		13CA00661BB7093C00C0E5A1 /* Bola.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bola.swift; sourceTree = "<group>"; };
+		13CA00681BB70BF800C0E5A1 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		13CA006A1BB7172700C0E5A1 /* bridge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bridge.png; sourceTree = "<group>"; };
+		13CA006C1BB71B9D00C0E5A1 /* CGVectorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGVectorExtensions.swift; sourceTree = "<group>"; };
+		13D14E9B1BA452F400CE9CEC /* Arcanoid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arcanoid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D14E9F1BA452F400CE9CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13D14EA01BA452F400CE9CEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13D14EA21BA452F400CE9CEC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		13D14EA41BA452F400CE9CEC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		13D14EA61BA452F400CE9CEC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		13D14EA91BA452F400CE9CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13D14EAB1BA452F400CE9CEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13D14EAE1BA452F400CE9CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13D14EB41BA452F400CE9CEC /* ArcanoidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcanoidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D14EB91BA452F400CE9CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13D14EBA1BA452F400CE9CEC /* ArcanoidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcanoidTests.swift; sourceTree = "<group>"; };
+		13D14EC61BA4536300CE9CEC /* brickWall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brickWall.png; sourceTree = "<group>"; };
+		13D14ECD1BA45A4300CE9CEC /* kenpixel_mini.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kenpixel_mini.ttf; sourceTree = "<group>"; };
+		13D14ECF1BA45D0300CE9CEC /* Jogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jogo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13D14E981BA452F400CE9CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D14EB11BA452F400CE9CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13D14E921BA452F400CE9CEC = {
+			isa = PBXGroup;
+			children = (
+				13D14E9D1BA452F400CE9CEC /* Arcanoid */,
+				13D14EB71BA452F400CE9CEC /* ArcanoidTests */,
+				13D14E9C1BA452F400CE9CEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13D14E9C1BA452F400CE9CEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13D14E9B1BA452F400CE9CEC /* Arcanoid.app */,
+				13D14EB41BA452F400CE9CEC /* ArcanoidTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13D14E9D1BA452F400CE9CEC /* Arcanoid */ = {
+			isa = PBXGroup;
+			children = (
+				13D14EC81BA454ED00CE9CEC /* Assets */,
+				13D14EA01BA452F400CE9CEC /* AppDelegate.swift */,
+				13D14EA21BA452F400CE9CEC /* GameScene.sks */,
+				13D14ECF1BA45D0300CE9CEC /* Jogo.swift */,
+				13D14EA41BA452F400CE9CEC /* GameScene.swift */,
+				13D14EA61BA452F400CE9CEC /* GameViewController.swift */,
+				13D14EA81BA452F400CE9CEC /* Main.storyboard */,
+				13D14EAB1BA452F400CE9CEC /* Images.xcassets */,
+				13D14EAD1BA452F400CE9CEC /* LaunchScreen.xib */,
+				13D14E9E1BA452F400CE9CEC /* Supporting Files */,
+				13CA00641BB6FE9200C0E5A1 /* BarraJogador.swift */,
+				13A5F71C1BBFF39900629211 /* Bloco.swift */,
+				13CA00661BB7093C00C0E5A1 /* Bola.swift */,
+				13CA006C1BB71B9D00C0E5A1 /* CGVectorExtensions.swift */,
+				13A5F7241BC00DF200629211 /* GameOver.swift */,
+				13A5F7261BC0119000629211 /* GameWin.swift */,
+				13A5F7281BC0145800629211 /* About.swift */,
+			);
+			path = Arcanoid;
+			sourceTree = "<group>";
+		};
+		13D14E9E1BA452F400CE9CEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13D14E9F1BA452F400CE9CEC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13D14EB71BA452F400CE9CEC /* ArcanoidTests */ = {
+			isa = PBXGroup;
+			children = (
+				13D14EBA1BA452F400CE9CEC /* ArcanoidTests.swift */,
+				13D14EB81BA452F400CE9CEC /* Supporting Files */,
+			);
+			path = ArcanoidTests;
+			sourceTree = "<group>";
+		};
+		13D14EB81BA452F400CE9CEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13D14EB91BA452F400CE9CEC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13D14EC81BA454ED00CE9CEC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				13D14ECB1BA4568D00CE9CEC /* Fonts */,
+				13D14EC91BA454F800CE9CEC /* Sprites */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		13D14EC91BA454F800CE9CEC /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				13A5F7221BBFFCA100629211 /* boxEmpty.png */,
+				13A5F7201BBFFC9500629211 /* boxExplosiveAlt.png */,
+				13A5F71E1BBFFC6D00629211 /* boxExplosive.png */,
+				13CA00681BB70BF800C0E5A1 /* ball.png */,
+				13CA006A1BB7172700C0E5A1 /* bridge.png */,
+				13D14EC61BA4536300CE9CEC /* brickWall.png */,
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
+		13D14ECB1BA4568D00CE9CEC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				13D14ECD1BA45A4300CE9CEC /* kenpixel_mini.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13D14E9A1BA452F400CE9CEC /* Arcanoid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13D14EBE1BA452F400CE9CEC /* Build configuration list for PBXNativeTarget "Arcanoid" */;
+			buildPhases = (
+				13D14E971BA452F400CE9CEC /* Sources */,
+				13D14E981BA452F400CE9CEC /* Frameworks */,
+				13D14E991BA452F400CE9CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arcanoid;
+			productName = Arcanoid;
+			productReference = 13D14E9B1BA452F400CE9CEC /* Arcanoid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13D14EB31BA452F400CE9CEC /* ArcanoidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13D14EC11BA452F400CE9CEC /* Build configuration list for PBXNativeTarget "ArcanoidTests" */;
+			buildPhases = (
+				13D14EB01BA452F400CE9CEC /* Sources */,
+				13D14EB11BA452F400CE9CEC /* Frameworks */,
+				13D14EB21BA452F400CE9CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13D14EB61BA452F400CE9CEC /* PBXTargetDependency */,
+			);
+			name = ArcanoidTests;
+			productName = ArcanoidTests;
+			productReference = 13D14EB41BA452F400CE9CEC /* ArcanoidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13D14E931BA452F400CE9CEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = pucpr;
+				TargetAttributes = {
+					13D14E9A1BA452F400CE9CEC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					13D14EB31BA452F400CE9CEC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 13D14E9A1BA452F400CE9CEC;
+					};
+				};
+			};
+			buildConfigurationList = 13D14E961BA452F400CE9CEC /* Build configuration list for PBXProject "Arcanoid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13D14E921BA452F400CE9CEC;
+			productRefGroup = 13D14E9C1BA452F400CE9CEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13D14E9A1BA452F400CE9CEC /* Arcanoid */,
+				13D14EB31BA452F400CE9CEC /* ArcanoidTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13D14E991BA452F400CE9CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D14EAF1BA452F400CE9CEC /* LaunchScreen.xib in Resources */,
+				13D14EC71BA4536300CE9CEC /* brickWall.png in Resources */,
+				13A5F7231BBFFCA100629211 /* boxEmpty.png in Resources */,
+				13A5F71F1BBFFC6D00629211 /* boxExplosive.png in Resources */,
+				13A5F7211BBFFC9500629211 /* boxExplosiveAlt.png in Resources */,
+				13CA006B1BB7172700C0E5A1 /* bridge.png in Resources */,
+				13D14EAC1BA452F400CE9CEC /* Images.xcassets in Resources */,
+				13D14ECE1BA45A4300CE9CEC /* kenpixel_mini.ttf in Resources */,
+				13D14EA31BA452F400CE9CEC /* GameScene.sks in Resources */,
+				13CA00691BB70BF800C0E5A1 /* ball.png in Resources */,
+				13D14EAA1BA452F400CE9CEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D14EB21BA452F400CE9CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13D14E971BA452F400CE9CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CA006D1BB71B9D00C0E5A1 /* CGVectorExtensions.swift in Sources */,
+				13D14ED01BA45D0300CE9CEC /* Jogo.swift in Sources */,
+				13A5F7291BC0145800629211 /* About.swift in Sources */,
+				13A5F7271BC0119000629211 /* GameWin.swift in Sources */,
+				13CA00651BB6FE9200C0E5A1 /* BarraJogador.swift in Sources */,
+				13A5F7251BC00DF200629211 /* GameOver.swift in Sources */,
+				13D14EA51BA452F400CE9CEC /* GameScene.swift in Sources */,
+				13D14EA71BA452F400CE9CEC /* GameViewController.swift in Sources */,
+				13A5F71D1BBFF39900629211 /* Bloco.swift in Sources */,
+				13D14EA11BA452F400CE9CEC /* AppDelegate.swift in Sources */,
+				13CA00671BB7093C00C0E5A1 /* Bola.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D14EB01BA452F400CE9CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D14EBB1BA452F400CE9CEC /* ArcanoidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13D14EB61BA452F400CE9CEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13D14E9A1BA452F400CE9CEC /* Arcanoid */;
+			targetProxy = 13D14EB51BA452F400CE9CEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13D14EA81BA452F400CE9CEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13D14EA91BA452F400CE9CEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13D14EAD1BA452F400CE9CEC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13D14EAE1BA452F400CE9CEC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13D14EBC1BA452F400CE9CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13D14EBD1BA452F400CE9CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13D14EBF1BA452F400CE9CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Arcanoid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13D14EC01BA452F400CE9CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Arcanoid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13D14EC21BA452F400CE9CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ArcanoidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arcanoid.app/Arcanoid";
+			};
+			name = Debug;
+		};
+		13D14EC31BA452F400CE9CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ArcanoidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Arcanoid.app/Arcanoid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13D14E961BA452F400CE9CEC /* Build configuration list for PBXProject "Arcanoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D14EBC1BA452F400CE9CEC /* Debug */,
+				13D14EBD1BA452F400CE9CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13D14EBE1BA452F400CE9CEC /* Build configuration list for PBXNativeTarget "Arcanoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D14EBF1BA452F400CE9CEC /* Debug */,
+				13D14EC01BA452F400CE9CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13D14EC11BA452F400CE9CEC /* Build configuration list for PBXNativeTarget "ArcanoidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D14EC21BA452F400CE9CEC /* Debug */,
+				13D14EC31BA452F400CE9CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13D14E931BA452F400CE9CEC /* Project object */;
+}
